@@ -1,7 +1,7 @@
 import React from 'react';
 import { routerRedux, Route, Switch } from 'dva/router';
-import { LocaleProvider } from 'antd';
-import zhCN from 'antd/lib/locale-provider/zh_CN';
+import { LocaleProvider } from 'antd'; //国际化，http://1x.ant.design/components/locale-provider/
+import zhCN from 'antd/lib/locale-provider/zh_CN'; // 汉化
 import { getRouterData } from './common/router';
 import Authorized from './utils/Authorized';
 import { getQueryPath } from './utils/utils';
